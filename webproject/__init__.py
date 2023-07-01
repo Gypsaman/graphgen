@@ -36,4 +36,7 @@ def create_app():
     from webproject.routes.main import main as main_blueprint
 
     app.register_blueprint(main_blueprint)
+    
+    from webproject.routes.molecules import mol as mol_blueprint
+    app.register_blueprint(mol_blueprint)
     return app

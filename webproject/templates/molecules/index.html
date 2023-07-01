@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="neuro-content">
+    <div class="neuro-flex-row">
+        {% for molecule in mols %}
+        <div>
+            <img src="/static/Images/mols/{{ molecule }}.png" alt="{{ molecule['smile'] }}" width="200" height="200">
+        </div>
+        {% endfor %}
+
+    </div>
+</div>
+
+{% endblock %}
