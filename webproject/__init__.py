@@ -23,15 +23,11 @@ def create_app():
     login_manager.login_view = "auth.login"
     login_manager.init_app(app)
 
-    from webproject.models import User
+    from webproject.models import Users
 
     @login_manager.user_loader
     def load_user(user_id):
-        return User.query.get(int(user_id))
-
-    from webproject.routes.admin import admin as admin_blueprint
-
-    app.register_blueprint(admin_blueprint)
+        return Users.query.get(int(user_id))
 
     from webproject.routes.auth import auth as auth_blueprint
 
@@ -39,4 +35,5 @@ def create_app():
 
     from webproject.routes.main import main as main_blueprint
 
+    app.register_blueprint(main_blueprint)
     return app
