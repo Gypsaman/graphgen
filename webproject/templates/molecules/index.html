@@ -2,10 +2,27 @@
 
 {% block body %}
 <div class="neuro-content">
-    <div class="neuro-flex-row">
+    <div class="neuro-view-nft-collection">
         {% for molecule in mols %}
-        <div>
+        <div class="neuro-view-nft" >
+            <a href="/molecules/{{ molecule }}">{{ molecule }}</a>
             <img src="/static/Images/mols/{{ molecule }}.png" alt="{{ molecule['smile'] }}" width="200" height="200">
+            <div class="neuro-flex-row">
+                <p>smile:</p>
+                <p>{{ mols[molecule]['smile'] }}</p>
+            </div>
+            <div class="neuro-flex-row">
+                <p>inchikey:</p>
+                <p>{{ mols[molecule]['inchikey']}}</p>
+            </div>
+            <div class="neuro-flex-row">
+                <p>mwt:</p>
+                <p>{{ mols[molecule]['mwt']}}</p>
+            </div>
+            <div class="neuro-flex-row">
+                <p>logp:</p>
+                <p>{{ mols[molecule]['logp']}}</p>
+            </div>
         </div>
         {% endfor %}
 

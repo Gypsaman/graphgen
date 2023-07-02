@@ -175,6 +175,16 @@ select {
   color: #AE6222;
   font-size: 47px;
 }
+.neuro-descriptors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  margin-top: 20px;
+  height: 80%;
+}
 
 .neuro-view-nft-collection {
   display: flex;

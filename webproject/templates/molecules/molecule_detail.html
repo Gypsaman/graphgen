@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="neuro-content">
+    <div class="neuro-flex-row">
+        <div class="neuro-view-nft" >
+            <a href="/molecules/{{ molecule }}">{{ molecule }}</a>
+            <img src="/static/Images/mols/{{ molecule }}.png" alt="{{ molecule['smile'] }}" width="200" height="200">
+            <div class="neuro-flex-row">
+                <p>smile:</p>
+                <p>{{ mol['smile'] }}</p>
+            </div>
+            <div class="neuro-flex-row">
+                <p>inchikey:</p>
+                <p>{{ mol['inchikey']}}</p>
+            </div>
+            <div class="neuro-flex-row">
+                <p>mwt:</p>
+                <p>{{ mol['mwt']}}</p>
+            </div>
+            <div class="neuro-flex-row">
+                <p>logp:</p>
+                <p>{{ mol['logp']}}</p>
+            </div>
+        </div>
+        <div class="neuro-descriptors">
+            {%for descriptor in mol['descriptors'] %}
+                <div class="neuro-flex-row" >
+                    <div>| </div>
+                    <div>{{descriptor}}:</div>
+                    <div>{{"%0.2f" | format(mol['descriptors'][descriptor])}}</div>
+                    <div> </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}
