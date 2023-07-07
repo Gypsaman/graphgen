@@ -20,13 +20,17 @@ def molecule_detail(zinc_id):
 
     if request.method == 'GET':
         sel_groups = [(g,True) for g in desc_groups]
+        include_zero = False
     else:
         sel_groups = []
         for group in desc_groups:
             sel_groups.append((group,request.form.get(group)=='on'))
+        include_zero = request.form.get('include_zero')=='on'
+
 
     return render_template('molecules/molecule_detail.html',
                            mol=mols[zinc_id],
                            molecule=zinc_id,
                            desc_groups=desc_groups,
-                           sel_groups = sel_groups)
+                           sel_groups = sel_groups,
+                           include_zero = include_zero)

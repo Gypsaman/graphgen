@@ -39,6 +39,10 @@
                    {% endfor %}
                 </fieldset>
                 <div>
+                    <input type="checkbox" id="include_zero" name="include_zero" {% if include_zero %}checked{% endif %}>
+                    <label for="include_zero">Include Zero</label>
+                </div>
+                <div>
                     <button type="submit" class="neuro-button-small">Filter</button>
                   </div>
             </form>
@@ -54,11 +58,13 @@
                     {{sel[0]}}
                 </div>
                 {% for descriptor in desc_groups[sel[0]] %}
+                {% if include_zero or (mol['descriptors'][descriptor['descriptor']] != 0) %}
                 <div class="neuro-flex-row" >
                     <div>{{descriptor['display']}}:</div>
                     <div>{{"%0.2f" | format(mol['descriptors'][descriptor['descriptor']])}}</div>
 
                 </div>
+                {% endif %}
                 {% endfor %}
             </div>
             {% endif %}
