@@ -1,0 +1,9 @@
+{
+  "E State Index": [
+    { "descriptor": "MaxAbsEStateIndex", "display": "Max Abs" },
+    { "descriptor": "MaxEStateIndex", "display": "Max" },
+    { "descriptor": "MinAbsEStateIndex", "display": "Min Abs" },
+    { "descriptor": "MinEStateIndex", "display": "Min" }
+  ],
+  "qed": [{ "descriptor": "qed", "display": "" }]
+}

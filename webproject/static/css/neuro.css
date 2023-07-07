@@ -209,6 +209,9 @@ select {
   /* background-color: rgb(39, 37, 37); */
   
 }
+.neuro-view-nft-header {
+  color: blue;
+}
 .neuro-nft-metadata {
   display: flex;
   

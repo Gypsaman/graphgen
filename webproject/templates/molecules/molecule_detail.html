@@ -3,6 +3,7 @@
 {% block body %}
 <div class="neuro-content">
     <div class="neuro-flex-row">
+        <div style="  display: flex; flex-direction: column; justify-content: top;">
         <div class="neuro-view-nft" >
             <a href="/molecules/{{ molecule }}">{{ molecule }}</a>
             <img src="/static/Images/mols/{{ molecule }}.png" alt="{{ molecule['smile'] }}" width="200" height="200">
@@ -23,14 +24,44 @@
                 <p>{{ mol['logp']}}</p>
             </div>
         </div>
-        <div class="neuro-descriptors">
-            {%for descriptor in mol['descriptors'] %}
-                <div class="neuro-flex-row" >
-                    <div>| </div>
-                    <div>{{descriptor}}:</div>
-                    <div>{{"%0.2f" | format(mol['descriptors'][descriptor])}}</div>
-                    <div> </div>
+        <div>
+            <form action="/molecules/{{molecule}}" method="POST">
+                <fieldset>
+                    <legend>Choose Descriptors:</legend>
+                    {% for group in sel_groups %}
+                    <div>
+                      <input type="checkbox" id="{{group[0]}}" name="{{group[0]}}" 
+                      {% if group[1] %}checked{% endif %}
+                      >
+                      <label for="{{group[0]}}">{{group[0]}}</label>
+                    </div>
+                
+                   {% endfor %}
+                </fieldset>
+                <div>
+                    <button type="submit" class="neuro-button-small">Filter</button>
+                  </div>
+            </form>
+
+        </div>
+    </div>
+        <div class="neuro-view-nft-collection">
+            {%for sel in sel_groups %}
+
+            {% if sel[1] %}
+            <div class = "neuro-view-nft">
+                <div class="neuro-view-nft-header">
+                    {{sel[0]}}
                 </div>
+                {% for descriptor in desc_groups[sel[0]] %}
+                <div class="neuro-flex-row" >
+                    <div>{{descriptor['display']}}:</div>
+                    <div>{{"%0.2f" | format(mol['descriptors'][descriptor['descriptor']])}}</div>
+
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>

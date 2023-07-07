@@ -1,0 +1,860 @@
+{
+    "E State Index": [
+        {
+            "descriptor": "MaxAbsEStateIndex",
+            "display": "Max Abs"
+        },
+        {
+            "descriptor": "MaxEStateIndex",
+            "display": "Max"
+        },
+        {
+            "descriptor": "MinAbsEStateIndex",
+            "display": "Min Abs"
+        },
+        {
+            "descriptor": "MinEStateIndex",
+            "display": "Min"
+        }
+    ],
+    "qed": [
+        {
+            "descriptor": "qed",
+            "display": "qed"
+        }
+    ],
+    "molecular weight": [
+        {
+            "descriptor": "MolWt",
+            "display": "Mol"
+        },
+        {
+            "descriptor": "HeavyAtomMolWt",
+            "display": "Heavy Atonm Mol"
+        },
+        {
+            "descriptor": "ExactMolWt",
+            "display": "Exact Mol"
+        }
+    ],
+    "Electrons": [
+        {
+            "descriptor": "NumValenceElectrons",
+            "display": "Num Valance"
+        },
+        {
+            "descriptor": "NumRadicalElectrons",
+            "display": "Num Radical"
+        }
+    ],
+    "Charge": [
+        {
+            "descriptor": "MaxPartialCharge",
+            "display": "Max Partial"
+        },
+        {
+            "descriptor": "MinPartialCharge",
+            "display": "Min Partial"
+        },
+        {
+            "descriptor": "MaxAbsPartialCharge",
+            "display": "Max Abs"
+        },
+        {
+            "descriptor": "MinAbsPartialCharge",
+            "display": "Min Abs"
+        }
+    ],
+    "Morgan Density": [
+        {
+            "descriptor": "FpDensityMorgan1",
+            "display": "Morgan Density 1"
+        },
+        {
+            "descriptor": "FpDensityMorgan2",
+            "display": "Morgan Density 2"
+        },
+        {
+            "descriptor": "FpDensityMorgan3",
+            "display": "Morgan Density 3"
+        }
+    ],
+    "BCUT2D": [
+        {
+            "descriptor": "BCUT2D_MWHI",
+            "display": "MW HI"
+        },
+        {
+            "descriptor": "BCUT2D_MWLOW",
+            "display": "MW LOW"
+        },
+        {
+            "descriptor": "BCUT2D_CHGHI",
+            "display": "CHG HI"
+        },
+        {
+            "descriptor": "BCUT2D_CHGLO",
+            "display": "CHG LO"
+        },
+        {
+            "descriptor": "BCUT2D_LOGPHI",
+            "display": "LOGP HI"
+        },
+        {
+            "descriptor": "BCUT2D_LOGPLOW",
+            "display": "LOGP LOW"
+        },
+        {
+            "descriptor": "BCUT2D_MRHI",
+            "display": "MR HI"
+        },
+        {
+            "descriptor": "BCUT2D_MRLOW",
+            "display": "MR LOW"
+        }
+    ],
+    "Other": [
+        {
+            "descriptor": "HallKierAlpha",
+            "display": "HallKierAlpha"
+        },
+        {
+            "descriptor": "Ipc",
+            "display": "Ipc"
+        },
+        {
+            "descriptor": "Kappa1",
+            "display": "Kappa 1"
+        },
+        {
+            "descriptor": "Kappa2",
+            "display": "Kappa 2"
+        },
+        {
+            "descriptor": "Kappa3",
+            "display": "Kappa 3"
+        },
+        {
+            "descriptor": "LabuteASA",
+            "display": "Labute ASA"
+        }
+    ],
+    "Chi": [
+        {
+            "descriptor": "Chi0",
+            "display": "0"
+        },
+        {
+            "descriptor": "Chi0n",
+            "display": "0n"
+        },
+        {
+            "descriptor": "Chi0v",
+            "display": "0v"
+        },
+        {
+            "descriptor": "Chi1",
+            "display": "1"
+        },
+        {
+            "descriptor": "Chi1n",
+            "display": "1n"
+        },
+        {
+            "descriptor": "Chi1v",
+            "display": "1v"
+        },
+        {
+            "descriptor": "Chi2n",
+            "display": "2n"
+        },
+        {
+            "descriptor": "Chi2v",
+            "display": "2v"
+        },
+        {
+            "descriptor": "Chi3n",
+            "display": "3n"
+        },
+        {
+            "descriptor": "Chi3v",
+            "display": "3v"
+        },
+        {
+            "descriptor": "Chi4n",
+            "display": "4n"
+        },
+        {
+            "descriptor": "Chi4v",
+            "display": "4v"
+        }
+    ],
+    "PEOE": [
+        {
+            "descriptor": "PEOE_VSA1",
+            "display": "VSA 1"
+        },
+        {
+            "descriptor": "PEOE_VSA10",
+            "display": "VSA 10"
+        },
+        {
+            "descriptor": "PEOE_VSA11",
+            "display": "VSA 11"
+        },
+        {
+            "descriptor": "PEOE_VSA12",
+            "display": "VSA 12"
+        },
+        {
+            "descriptor": "PEOE_VSA13",
+            "display": "VSA 13"
+        },
+        {
+            "descriptor": "PEOE_VSA14",
+            "display": "VSA 14"
+        },
+        {
+            "descriptor": "PEOE_VSA2",
+            "display": "VSA 2"
+        },
+        {
+            "descriptor": "PEOE_VSA3",
+            "display": "VSA 3"
+        },
+        {
+            "descriptor": "PEOE_VSA4",
+            "display": "VSA 4"
+        },
+        {
+            "descriptor": "PEOE_VSA5",
+            "display": "VSA 5"
+        },
+        {
+            "descriptor": "PEOE_VSA6",
+            "display": "VSA 6"
+        },
+        {
+            "descriptor": "PEOE_VSA7",
+            "display": "VSA 7"
+        },
+        {
+            "descriptor": "PEOE_VSA8",
+            "display": "VSA 8"
+        },
+        {
+            "descriptor": "PEOE_VSA9",
+            "display": "VSA 9"
+        }
+    ],
+    "SMR": [
+        {
+            "descriptor": "SMR_VSA1",
+            "display": "VSA 1"
+        },
+        {
+            "descriptor": "SMR_VSA10",
+            "display": "VSA 10"
+        },
+        {
+            "descriptor": "SMR_VSA2",
+            "display": "VSA 2"
+        },
+        {
+            "descriptor": "SMR_VSA3",
+            "display": "VSA 3"
+        },
+        {
+            "descriptor": "SMR_VSA4",
+            "display": "VSA 4"
+        },
+        {
+            "descriptor": "SMR_VSA5",
+            "display": "VSA 5"
+        },
+        {
+            "descriptor": "SMR_VSA6",
+            "display": "VSA 6"
+        },
+        {
+            "descriptor": "SMR_VSA7",
+            "display": "VSA 7"
+        },
+        {
+            "descriptor": "SMR_VSA8",
+            "display": "VSA 8"
+        },
+        {
+            "descriptor": "SMR_VSA9",
+            "display": "VSA 9"
+        }
+    ],
+    "SlogP": [
+        {
+            "descriptor": "SlogP_VSA1",
+            "display": "VSA 1"
+        },
+        {
+            "descriptor": "SlogP_VSA10",
+            "display": "VSA 10"
+        },
+        {
+            "descriptor": "SlogP_VSA11",
+            "display": "VSA 11"
+        },
+        {
+            "descriptor": "SlogP_VSA12",
+            "display": "VSA 12"
+        },
+        {
+            "descriptor": "SlogP_VSA2",
+            "display": "VSA 2"
+        },
+        {
+            "descriptor": "SlogP_VSA3",
+            "display": "VSA 3"
+        },
+        {
+            "descriptor": "SlogP_VSA4",
+            "display": "VSA 4"
+        },
+        {
+            "descriptor": "SlogP_VSA5",
+            "display": "VSA 5"
+        },
+        {
+            "descriptor": "SlogP_VSA6",
+            "display": "VSA 6"
+        },
+        {
+            "descriptor": "SlogP_VSA7",
+            "display": "VSA 7"
+        },
+        {
+            "descriptor": "SlogP_VSA8",
+            "display": "VSA 8"
+        },
+        {
+            "descriptor": "SlogP_VSA9",
+            "display": "VSA 9"
+        }
+    ],
+    "TPSA": [
+        {
+            "descriptor": "TPSA",
+            "display": "TPSA"
+        }
+    ],
+    "E State": [
+        {
+            "descriptor": "EState_VSA1",
+            "display": "VSA 1"
+        },
+        {
+            "descriptor": "EState_VSA10",
+            "display": "VSA 10"
+        },
+        {
+            "descriptor": "EState_VSA11",
+            "display": "VSA 11"
+        },
+        {
+            "descriptor": "EState_VSA2",
+            "display": "VSA 2"
+        },
+        {
+            "descriptor": "EState_VSA3",
+            "display": "VSA 3"
+        },
+        {
+            "descriptor": "EState_VSA4",
+            "display": "VSA 4"
+        },
+        {
+            "descriptor": "EState_VSA5",
+            "display": "VSA 5"
+        },
+        {
+            "descriptor": "EState_VSA6",
+            "display": "VSA 6"
+        },
+        {
+            "descriptor": "EState_VSA7",
+            "display": "VSA 7"
+        },
+        {
+            "descriptor": "EState_VSA8",
+            "display": "VSA 8"
+        },
+        {
+            "descriptor": "EState_VSA9",
+            "display": "VSA 9"
+        }
+    ],
+    "VSA": [
+        {
+            "descriptor": "VSA_EState1",
+            "display": "E State"
+        },
+        {
+            "descriptor": "VSA_EState10",
+            "display": "E State 10"
+        },
+        {
+            "descriptor": "VSA_EState2",
+            "display": "E State 2"
+        },
+        {
+            "descriptor": "VSA_EState3",
+            "display": "E State 3"
+        },
+        {
+            "descriptor": "VSA_EState4",
+            "display": "E State 4"
+        },
+        {
+            "descriptor": "VSA_EState5",
+            "display": "E State 5"
+        },
+        {
+            "descriptor": "VSA_EState6",
+            "display": "E State 6"
+        },
+        {
+            "descriptor": "VSA_EState7",
+            "display": "E State 7"
+        },
+        {
+            "descriptor": "VSA_EState8",
+            "display": "E State 8"
+        },
+        {
+            "descriptor": "VSA_EState9",
+            "display": "E State 9"
+        }
+    ],
+    "Other 2": [
+        {
+            "descriptor": "FractionCSP3",
+            "display": "FractionCSP3"
+        },
+        {
+            "descriptor": "HeavyAtomCount",
+            "display": "HeavyAtomCount"
+        },
+        {
+            "descriptor": "NHOHCount",
+            "display": "NHOHCount"
+        },
+        {
+            "descriptor": "NOCount",
+            "display": "NOCount"
+        },
+        {
+            "descriptor": "NumAliphaticCarbocycles",
+            "display": "NumAliphaticCarbocycles"
+        },
+        {
+            "descriptor": "NumAliphaticHeterocycles",
+            "display": "NumAliphaticHeterocycles"
+        },
+        {
+            "descriptor": "NumAliphaticRings",
+            "display": "NumAliphaticRings"
+        },
+        {
+            "descriptor": "NumAromaticCarbocycles",
+            "display": "NumAromaticCarbocycles"
+        },
+        {
+            "descriptor": "NumAromaticHeterocycles",
+            "display": "NumAromaticHeterocycles"
+        },
+        {
+            "descriptor": "NumAromaticRings",
+            "display": "NumAromaticRings"
+        },
+        {
+            "descriptor": "NumHAcceptors",
+            "display": "NumHAcceptors"
+        },
+        {
+            "descriptor": "NumHDonors",
+            "display": "NumHDonors"
+        },
+        {
+            "descriptor": "NumHeteroatoms",
+            "display": "NumHeteroatoms"
+        },
+        {
+            "descriptor": "NumRotatableBonds",
+            "display": "NumRotatableBonds"
+        },
+        {
+            "descriptor": "NumSaturatedCarbocycles",
+            "display": "NumSaturatedCarbocycles"
+        },
+        {
+            "descriptor": "NumSaturatedHeterocycles",
+            "display": "NumSaturatedHeterocycles"
+        },
+        {
+            "descriptor": "NumSaturatedRings",
+            "display": "NumSaturatedRings"
+        },
+        {
+            "descriptor": "RingCount",
+            "display": "RingCount"
+        },
+        {
+            "descriptor": "MolLogP",
+            "display": "MolLogP"
+        },
+        {
+            "descriptor": "MolMR",
+            "display": "MolMR"
+        }
+    ],
+    "fr": [
+        {
+            "descriptor": "fr_Al_COO",
+            "display": "fr_Al_COO"
+        },
+        {
+            "descriptor": "fr_Al_OH",
+            "display": "fr_Al_OH"
+        },
+        {
+            "descriptor": "fr_Al_OH_noTert",
+            "display": "fr_Al_OH_noTert"
+        },
+        {
+            "descriptor": "fr_ArN",
+            "display": "fr_ArN"
+        },
+        {
+            "descriptor": "fr_Ar_COO",
+            "display": "fr_Ar_COO"
+        },
+        {
+            "descriptor": "fr_Ar_N",
+            "display": "fr_Ar_N"
+        },
+        {
+            "descriptor": "fr_Ar_NH",
+            "display": "fr_Ar_NH"
+        },
+        {
+            "descriptor": "fr_Ar_OH",
+            "display": "fr_Ar_OH"
+        },
+        {
+            "descriptor": "fr_COO",
+            "display": "fr_COO"
+        },
+        {
+            "descriptor": "fr_COO2",
+            "display": "fr_COO2"
+        },
+        {
+            "descriptor": "fr_C_O",
+            "display": "fr_C_O"
+        },
+        {
+            "descriptor": "fr_C_O_noCOO",
+            "display": "fr_C_O_noCOO"
+        },
+        {
+            "descriptor": "fr_C_S",
+            "display": "fr_C_S"
+        },
+        {
+            "descriptor": "fr_HOCCN",
+            "display": "fr_HOCCN"
+        },
+        {
+            "descriptor": "fr_Imine",
+            "display": "fr_Imine"
+        },
+        {
+            "descriptor": "fr_NH0",
+            "display": "fr_NH0"
+        },
+        {
+            "descriptor": "fr_NH1",
+            "display": "fr_NH1"
+        },
+        {
+            "descriptor": "fr_NH2",
+            "display": "fr_NH2"
+        },
+        {
+            "descriptor": "fr_N_O",
+            "display": "fr_N_O"
+        },
+        {
+            "descriptor": "fr_Ndealkylation1",
+            "display": "fr_Ndealkylation1"
+        },
+        {
+            "descriptor": "fr_Ndealkylation2",
+            "display": "fr_Ndealkylation2"
+        },
+        {
+            "descriptor": "fr_Nhpyrrole",
+            "display": "fr_Nhpyrrole"
+        },
+        {
+            "descriptor": "fr_SH",
+            "display": "fr_SH"
+        },
+        {
+            "descriptor": "fr_aldehyde",
+            "display": "fr_aldehyde"
+        },
+        {
+            "descriptor": "fr_alkyl_carbamate",
+            "display": "fr_alkyl_carbamate"
+        },
+        {
+            "descriptor": "fr_alkyl_halide",
+            "display": "fr_alkyl_halide"
+        },
+        {
+            "descriptor": "fr_allylic_oxid",
+            "display": "fr_allylic_oxid"
+        },
+        {
+            "descriptor": "fr_amide",
+            "display": "fr_amide"
+        },
+        {
+            "descriptor": "fr_amidine",
+            "display": "fr_amidine"
+        },
+        {
+            "descriptor": "fr_aniline",
+            "display": "fr_aniline"
+        },
+        {
+            "descriptor": "fr_aryl_methyl",
+            "display": "fr_aryl_methyl"
+        },
+        {
+            "descriptor": "fr_azide",
+            "display": "fr_azide"
+        },
+        {
+            "descriptor": "fr_azo",
+            "display": "fr_azo"
+        },
+        {
+            "descriptor": "fr_barbitur",
+            "display": "fr_barbitur"
+        },
+        {
+            "descriptor": "fr_benzene",
+            "display": "fr_benzene"
+        },
+        {
+            "descriptor": "fr_benzodiazepine",
+            "display": "fr_benzodiazepine"
+        },
+        {
+            "descriptor": "fr_bicyclic",
+            "display": "fr_bicyclic"
+        },
+        {
+            "descriptor": "fr_diazo",
+            "display": "fr_diazo"
+        },
+        {
+            "descriptor": "fr_dihydropyridine",
+            "display": "fr_dihydropyridine"
+        },
+        {
+            "descriptor": "fr_epoxide",
+            "display": "fr_epoxide"
+        },
+        {
+            "descriptor": "fr_ester",
+            "display": "fr_ester"
+        },
+        {
+            "descriptor": "fr_ether",
+            "display": "fr_ether"
+        },
+        {
+            "descriptor": "fr_furan",
+            "display": "fr_furan"
+        },
+        {
+            "descriptor": "fr_guanido",
+            "display": "fr_guanido"
+        },
+        {
+            "descriptor": "fr_halogen",
+            "display": "fr_halogen"
+        },
+        {
+            "descriptor": "fr_hdrzine",
+            "display": "fr_hdrzine"
+        },
+        {
+            "descriptor": "fr_hdrzone",
+            "display": "fr_hdrzone"
+        },
+        {
+            "descriptor": "fr_imidazole",
+            "display": "fr_imidazole"
+        },
+        {
+            "descriptor": "fr_imide",
+            "display": "fr_imide"
+        },
+        {
+            "descriptor": "fr_isocyan",
+            "display": "fr_isocyan"
+        },
+        {
+            "descriptor": "fr_isothiocyan",
+            "display": "fr_isothiocyan"
+        },
+        {
+            "descriptor": "fr_ketone",
+            "display": "fr_ketone"
+        },
+        {
+            "descriptor": "fr_ketone_Topliss",
+            "display": "fr_ketone_Topliss"
+        },
+        {
+            "descriptor": "fr_lactam",
+            "display": "fr_lactam"
+        },
+        {
+            "descriptor": "fr_lactone",
+            "display": "fr_lactone"
+        },
+        {
+            "descriptor": "fr_methoxy",
+            "display": "fr_methoxy"
+        },
+        {
+            "descriptor": "fr_morpholine",
+            "display": "fr_morpholine"
+        },
+        {
+            "descriptor": "fr_nitrile",
+            "display": "fr_nitrile"
+        },
+        {
+            "descriptor": "fr_nitro",
+            "display": "fr_nitro"
+        },
+        {
+            "descriptor": "fr_nitro_arom",
+            "display": "fr_nitro_arom"
+        },
+        {
+            "descriptor": "fr_nitro_arom_nonortho",
+            "display": "fr_nitro_arom_nonortho"
+        },
+        {
+            "descriptor": "fr_nitroso",
+            "display": "fr_nitroso"
+        },
+        {
+            "descriptor": "fr_oxazole",
+            "display": "fr_oxazole"
+        },
+        {
+            "descriptor": "fr_oxime",
+            "display": "fr_oxime"
+        },
+        {
+            "descriptor": "fr_para_hydroxylation",
+            "display": "fr_para_hydroxylation"
+        },
+        {
+            "descriptor": "fr_phenol",
+            "display": "fr_phenol"
+        },
+        {
+            "descriptor": "fr_phenol_noOrthoHbond",
+            "display": "fr_phenol_noOrthoHbond"
+        },
+        {
+            "descriptor": "fr_phos_acid",
+            "display": "fr_phos_acid"
+        },
+        {
+            "descriptor": "fr_phos_ester",
+            "display": "fr_phos_ester"
+        },
+        {
+            "descriptor": "fr_piperdine",
+            "display": "fr_piperdine"
+        },
+        {
+            "descriptor": "fr_piperzine",
+            "display": "fr_piperzine"
+        },
+        {
+            "descriptor": "fr_priamide",
+            "display": "fr_priamide"
+        },
+        {
+            "descriptor": "fr_prisulfonamd",
+            "display": "fr_prisulfonamd"
+        },
+        {
+            "descriptor": "fr_pyridine",
+            "display": "fr_pyridine"
+        },
+        {
+            "descriptor": "fr_quatN",
+            "display": "fr_quatN"
+        },
+        {
+            "descriptor": "fr_sulfide",
+            "display": "fr_sulfide"
+        },
+        {
+            "descriptor": "fr_sulfonamd",
+            "display": "fr_sulfonamd"
+        },
+        {
+            "descriptor": "fr_sulfone",
+            "display": "fr_sulfone"
+        },
+        {
+            "descriptor": "fr_term_acetylene",
+            "display": "fr_term_acetylene"
+        },
+        {
+            "descriptor": "fr_tetrazole",
+            "display": "fr_tetrazole"
+        },
+        {
+            "descriptor": "fr_thiazole",
+            "display": "fr_thiazole"
+        },
+        {
+            "descriptor": "fr_thiocyan",
+            "display": "fr_thiocyan"
+        },
+        {
+            "descriptor": "fr_thiophene",
+            "display": "fr_thiophene"
+        },
+        {
+            "descriptor": "fr_unbrch_alkane",
+            "display": "fr_unbrch_alkane"
+        },
+        {
+            "descriptor": "fr_urea",
+            "display": "fr_urea"
+        }
+    ]
+}
